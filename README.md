@@ -32,7 +32,7 @@ I have created a password generator through Javascript, its purpose is to genera
 ✋ [GitHub Repository](https://github.com/Ahsan-Zaidi/Password-Generator)
 
 
-✋ [Deployed App](https://ahsan-zaidi.github.io/Code-Refactor/)
+✋ [Deployed App](https://ahsan-zaidi.github.io/Password-Generator/)
 
 
 ## ✋User Story
