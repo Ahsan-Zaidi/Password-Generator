@@ -51,6 +51,7 @@ function generatePassword() {
         else if (checkUp && checkSpecial && checkNum && !checkLow) {
             characters = upChar.concat(specialchar, numchar);
         }
+        //section of 2 possible choices
         //numeric and special characters are not selected
         else if (checkUp && checkLow && !checkNum && !checkSpecial) {
             characters = upChar.concat(lowchar);
@@ -75,6 +76,7 @@ function generatePassword() {
         else if (checkNum && checkSpecial && !checkUp && !checkLow) {
             characters = numchar.concat(specialchar);
         }
+        //section of only 1 possible choice
         //only numeric charaters are selected
         else if (checkNum) {
             characters = numchar;
@@ -91,22 +93,25 @@ function generatePassword() {
         else if (checkUp) {
             characters = upChar;
         }
-
+        //for loop to establish users desired password length
         for (var i = 0; i < length; i++) {
+            //randomly generated index of characters
             pass += characters.charAt(Math.floor(Math.random() * characters.length));
         }
 
     }
+    //return the generated password
     return pass;
 }
 
 var generateBtn = document.querySelector("#generate");
 
+//using generatepassword function to input the password into the #password input
 function writePassword() {
     var password = generatePassword();
     var passwordText = document.querySelector("#password");
     passwordText.value = password;
 }
-
+//create the event listener
 generateBtn.addEventListener("click", writePassword);
 
