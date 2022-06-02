@@ -27,17 +27,13 @@
 
 🔍Being a web developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects.
 
-I have created a portfolio, using my new React skills to help set you apart from other developers whose portfolios don’t use the latest technologies.
+I have created a password generator through Javascript, its purpose is to generate a password based on the users selected criteria. Then display the password for the user.
 
-✋ [GitHub Repository](https://github.com/Ahsan-Zaidi/Code-Refactor)
+✋ [GitHub Repository](https://github.com/Ahsan-Zaidi/Password-Generator)
 
 
 ✋ [Deployed App](https://ahsan-zaidi.github.io/Code-Refactor/)
 
-
-![Screen Shot](assets/images/Horiseon.jpg)
-
-![Screen Shot](assets/images/Horiseon2.jpg)
 
 ## ✋User Story
 
