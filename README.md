@@ -1,5 +1,5 @@
 # Password-Generator
-<h1 align="center"> Code Refactor 👋</h1>
+<h1 align="center"> Password Generator 👋</h1>
   
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/jpd61/e-commerce-backend" />
